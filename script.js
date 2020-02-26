@@ -61,7 +61,6 @@ const questionGenerator = (input) => {
             num.push(Math.ceil(Math.random() * 100))
             num.push(Math.ceil(Math.random() * 100))
             num.sort()
-            console.log(num)
             first[i].textContent = num[1]
             second[i].textContent = num[0]
             answer.push(num[1]-num[0])
